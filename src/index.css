@@ -18,6 +18,14 @@ p {
   color: #6e6f7d;
 }
 
+button {
+  transition: all 0.3s linear;
+}
+
+button:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .main {
   display: flex;
   align-items: flex-start;

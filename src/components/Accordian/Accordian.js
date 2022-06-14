@@ -18,7 +18,15 @@ const Accordian = () => {
               <h6 className="pt-2">Project Discovery call</h6>
               <div className="text-secondary">
                 <span>Due Soon</span>
-                <span className="ps-3">09.20 am</span>
+                <span
+                  style={{
+                    color: "black",
+                    fontWeight: "bold",
+                  }}
+                  className="ps-3"
+                >
+                  09.20 am
+                </span>
               </div>
               <div className="mt-3 d-flex justify-content-between align-items-center">
                 <div className="mx-2">
@@ -61,7 +69,15 @@ const Accordian = () => {
             <h6 className="pt-2">Project Discovery call</h6>
             <div className="text-secondary">
               <span>Due Soon</span>
-              <span className="ps-3">09.20 am</span>
+              <span
+                style={{
+                  color: "black",
+                  fontWeight: "bold",
+                }}
+                className="ps-3"
+              >
+                09.20 am
+              </span>
             </div>
             <div className="mt-3 d-flex justify-content-between align-items-center">
               <div className="mx-2">
