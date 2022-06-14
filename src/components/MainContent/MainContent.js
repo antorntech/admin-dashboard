@@ -130,11 +130,39 @@ const MainContent = () => {
               </div>
             </div>
           </div>
-          <div className="my-3">
+          <div className="my-3 d-flex justify-content-between align-items-center">
             <header className="text-start">
               <h2>Current Progress</h2>
               <p>Projects that are currently in progress</p>
             </header>
+            <div>
+              <div>
+                <button
+                  className="me-3"
+                  style={{
+                    background: "#fff",
+                    border: "none",
+                    padding: "10px 18px",
+                    boxShadow:
+                      "rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px",
+                  }}
+                >
+                  Filter
+                  <i class="bi bi-funnel-fill ps-2"></i>
+                </button>
+                <button
+                  style={{
+                    background: "#fff",
+                    border: "none",
+                    padding: "10px 15px",
+                    boxShadow:
+                      "rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px",
+                  }}
+                >
+                  <i class="bi bi-three-dots-vertical"></i>
+                </button>
+              </div>
+            </div>
           </div>
           <div className="row row-cols-3">
             <div className="col">
@@ -285,11 +313,26 @@ const MainContent = () => {
               </div>
             </div>
           </div>
-          <div className="mt-5">
+          <div className="mt-5 d-flex justify-content-between align-items-center">
             <header className="text-start">
               <h2>Pending Invoice</h2>
               <p>Invoices that are currently in pending</p>
             </header>
+            <div>
+              <div>
+                <button
+                  style={{
+                    background: "#fff",
+                    border: "none",
+                    padding: "10px 15px",
+                    boxShadow:
+                      "rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px",
+                  }}
+                >
+                  <i class="bi bi-three-dots-vertical"></i>
+                </button>
+              </div>
+            </div>
           </div>
           <div className="row row-cols-3">
             <div className="col">
