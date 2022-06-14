@@ -22,6 +22,7 @@ p {
   display: flex;
   align-items: flex-start;
   height: 100vh;
+  margin-left: 260px;
 }
 
 .container {
@@ -60,6 +61,10 @@ p {
 }
 
 .sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
   width: 260px;
   flex-shrink: 0;
   background-color: rgba(25, 59, 103, 0.02);
@@ -140,7 +145,7 @@ input[type="search"]:focus {
 }
 
 .avatar {
-  z-index: 1;
+  z-index: 0;
   margin-left: -10px;
 }
 
@@ -156,5 +161,5 @@ input[type="search"]:focus {
   border-radius: 50px;
   background-color: #c0c0c0;
   margin-left: -10px;
-  z-index: 0;
+  z-index: -1;
 }

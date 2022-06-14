@@ -7,7 +7,11 @@ import ProgressBar from "react-bootstrap/ProgressBar";
 
 const MainContent = () => {
   return (
-    <div className="mt-4">
+    <div
+      style={{
+        marginTop: "100px",
+      }}
+    >
       <div className="row row-cols-2">
         <div className="col-9">
           <header className="text-start">

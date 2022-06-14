@@ -1,9 +1,10 @@
 import React from "react";
 import userImg from "../../images/tm.png";
+import "./Header.css";
 
 const Header = () => {
   return (
-    <div className="">
+    <div className="header">
       <div className="row row-cols-2 headerContent d-flex align-items-center">
         <div className="col-lg-9 left">
           <div class="input-group flex-nowrap">
