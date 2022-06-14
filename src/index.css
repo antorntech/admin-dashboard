@@ -87,6 +87,19 @@ p {
   font-size: 1.2em;
   justify-content: space-between;
 }
+
+.sidebar-title:hover {
+  color: #14a9f9;
+}
+
+.sidebar-title span {
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+
+.sidebar-title:hover span {
+  margin-left: 10px;
+}
 .sidebar-title span i {
   display: inline-block;
   width: 1.5em;
@@ -110,9 +123,11 @@ p {
 .sidebar-item.plain {
   color: #000;
   text-decoration: none;
+  transition: all 0.5s linear;
 }
 .sidebar-item.plain:hover {
-  text-decoration: underline;
+  margin-left: 10px;
+  color: #14a9f9;
 }
 .sidebar-item.plain i {
   display: inline-block;
