@@ -134,3 +134,27 @@ input[type="search"]:focus {
   border-radius: 5px;
   margin: 12px;
 }
+
+.avatar-group {
+  display: flex;
+}
+
+.avatar {
+  z-index: 1;
+  margin-left: -10px;
+}
+
+.avatar img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+}
+
+.hidden-avatars {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  background-color: #c0c0c0;
+  margin-left: -10px;
+  z-index: 0;
+}

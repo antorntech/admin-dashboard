@@ -447,10 +447,11 @@ const MainContent = () => {
               <span className="ps-3">09.20 am</span>
             </div>
             <div className="mt-3 d-flex justify-content-between align-items-center">
-              <div>
+              <div className="mx-2">
                 <div class="avatar-group">
-                  <div class="hidden-avatars">+10</div>
-
+                  <div class="avatar">
+                    <img src={userImg} alt="" />
+                  </div>
                   <div class="avatar">
                     <img src={userImg} alt="" />
                   </div>
@@ -458,23 +459,14 @@ const MainContent = () => {
                   <div class="avatar">
                     <img src={userImg} alt="" />
                   </div>
-
-                  <div class="avatar">
-                    <img src={userImg} alt="" />
-                  </div>
-
-                  <div class="avatar">
-                    <img src={userImg} alt="" />
-                  </div>
-
-                  <div class="avatar">
-                    <img src={userImg} alt="" />
+                  <div class="hidden-avatars d-flex justify-content-between align-items-center">
+                    <span>05+</span>
                   </div>
                 </div>
               </div>
               <div>
                 <button
-                  className="text-white px-3"
+                  className="text-white px-2"
                   style={{
                     background: "#14A9F9",
                     padding: "4px 12px",
@@ -482,7 +474,7 @@ const MainContent = () => {
                     borderRadius: "4px",
                   }}
                 >
-                  <i class="bi bi-plus-lg pe-3"></i>
+                  <i class="bi bi-plus-lg pe-2"></i>
                   <span>Invite</span>
                 </button>
               </div>
