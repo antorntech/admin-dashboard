@@ -125,7 +125,7 @@ const MainContent = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className="my-3">
             <header className="text-start">
               <h2>Current Progress</h2>
               <p>Projects that are currently in progress</p>
@@ -280,7 +280,7 @@ const MainContent = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className="mt-5">
             <header className="text-start">
               <h2>Pending Invoice</h2>
               <p>Invoices that are currently in pending</p>
@@ -294,10 +294,10 @@ const MainContent = () => {
                   boxShadow: "rgba(0, 0, 0, 0.1) 0px 1px 2px 0px",
                 }}
               >
-                <header className="text-start">
+                <header className="py-2 text-start">
                   <h5>$137.00</h5>
                 </header>
-                <div className="d-flex justify-content-between align-items-center">
+                <div className="py-3 d-flex justify-content-between align-items-center">
                   <span>Amount</span>
                   <button
                     style={{
@@ -321,18 +321,104 @@ const MainContent = () => {
                     src={userImg}
                     alt=""
                   />
-                  <div className="text-start">
-                    <span>AM Antor</span>
+                  <div className="text-start p-4">
+                    <span className="fw-bold">AM Antor</span>
                     <div>
                       <span>#5331</span>
-                      <span>Date: 25 May</span>
+                      <span className="ps-2 text-secondary">Date: 25 May</span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col"></div>
-            <div className="col"></div>
+            <div className="col">
+              <div
+                className="p-1"
+                style={{
+                  boxShadow: "rgba(0, 0, 0, 0.1) 0px 1px 2px 0px",
+                }}
+              >
+                <header className="py-2 text-start">
+                  <h5>$137.00</h5>
+                </header>
+                <div className="py-3 d-flex justify-content-between align-items-center">
+                  <span>Amount</span>
+                  <button
+                    style={{
+                      color: "#fff",
+                      background: "#14A9F9",
+                      padding: "4px 12px",
+                      border: "none",
+                      borderRadius: "4px",
+                    }}
+                  >
+                    Pending
+                  </button>
+                </div>
+                <div className="d-flex justify-content-start align-items-center">
+                  <img
+                    style={{
+                      width: "40px",
+                      height: "40px",
+                      borderRadius: "50px",
+                    }}
+                    src={userImg}
+                    alt=""
+                  />
+                  <div className="text-start p-4">
+                    <span className="fw-bold">AM Antor</span>
+                    <div>
+                      <span>#5331</span>
+                      <span className="ps-2 text-secondary">Date: 25 May</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div
+                className="p-1"
+                style={{
+                  boxShadow: "rgba(0, 0, 0, 0.1) 0px 1px 2px 0px",
+                }}
+              >
+                <header className="py-2 text-start">
+                  <h5>$137.00</h5>
+                </header>
+                <div className="py-3 d-flex justify-content-between align-items-center">
+                  <span>Amount</span>
+                  <button
+                    style={{
+                      color: "#fff",
+                      background: "#14A9F9",
+                      padding: "4px 12px",
+                      border: "none",
+                      borderRadius: "4px",
+                    }}
+                  >
+                    Pending
+                  </button>
+                </div>
+                <div className="d-flex justify-content-start align-items-center">
+                  <img
+                    style={{
+                      width: "40px",
+                      height: "40px",
+                      borderRadius: "50px",
+                    }}
+                    src={userImg}
+                    alt=""
+                  />
+                  <div className="text-start p-4">
+                    <span className="fw-bold">AM Antor</span>
+                    <div>
+                      <span>#5331</span>
+                      <span className="ps-2 text-secondary">Date: 25 May</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="col-3">Hi</div>
