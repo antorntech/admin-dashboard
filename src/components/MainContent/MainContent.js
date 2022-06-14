@@ -299,7 +299,17 @@ const MainContent = () => {
                 </header>
                 <div className="d-flex justify-content-between align-items-center">
                   <span>Amount</span>
-                  <button className="">Approved</button>
+                  <button
+                    style={{
+                      color: "#fff",
+                      background: "#15C15D",
+                      padding: "4px 12px",
+                      border: "none",
+                      borderRadius: "4px",
+                    }}
+                  >
+                    Approved
+                  </button>
                 </div>
               </div>
             </div>
