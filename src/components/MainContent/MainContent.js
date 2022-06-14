@@ -433,8 +433,60 @@ const MainContent = () => {
           </div>
           <hr />
           <div className="px-2 d-flex justify-content-between align-items-center">
-            <h6 className="">Todays Meeting</h6>
-            <i class="bi bi-three-dots-vertical"></i>
+            <h6 className="">Today's Meeting</h6>
+            <i class="bi bi-chevron-down"></i>
+          </div>
+          <div className="mt-3 text-start">
+            <div className="px-2 d-flex justify-content-between align-items-center">
+              <span className="text-info">30 minute call with clients</span>
+              <i class="bi bi-three-dots-vertical"></i>
+            </div>
+            <h6 className="p-2">Project Discovery call</h6>
+            <div className="px-2 text-secondary">
+              <span>Due Soon</span>
+              <span className="ps-3">09.20 am</span>
+            </div>
+            <div className="mt-3 d-flex justify-content-between align-items-center">
+              <div>
+                <div class="avatar-group">
+                  <div class="hidden-avatars">+10</div>
+
+                  <div class="avatar">
+                    <img src={userImg} alt="" />
+                  </div>
+
+                  <div class="avatar">
+                    <img src={userImg} alt="" />
+                  </div>
+
+                  <div class="avatar">
+                    <img src={userImg} alt="" />
+                  </div>
+
+                  <div class="avatar">
+                    <img src={userImg} alt="" />
+                  </div>
+
+                  <div class="avatar">
+                    <img src={userImg} alt="" />
+                  </div>
+                </div>
+              </div>
+              <div>
+                <button
+                  className="text-white px-3"
+                  style={{
+                    background: "#14A9F9",
+                    padding: "4px 12px",
+                    border: "none",
+                    borderRadius: "4px",
+                  }}
+                >
+                  <i class="bi bi-plus-lg pe-3"></i>
+                  <span>Invite</span>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
