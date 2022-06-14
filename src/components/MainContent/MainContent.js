@@ -9,7 +9,7 @@ const MainContent = () => {
   return (
     <div
       style={{
-        marginTop: "100px",
+        marginTop: "80px",
       }}
     >
       <div className="row row-cols-2">
