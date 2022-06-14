@@ -311,6 +311,24 @@ const MainContent = () => {
                     Approved
                   </button>
                 </div>
+                <div className="d-flex justify-content-start align-items-center">
+                  <img
+                    style={{
+                      width: "40px",
+                      height: "40px",
+                      borderRadius: "50px",
+                    }}
+                    src={userImg}
+                    alt=""
+                  />
+                  <div className="text-start">
+                    <span>AM Antor</span>
+                    <div>
+                      <span>#5331</span>
+                      <span>Date: 25 May</span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="col"></div>
