@@ -1,0 +1,79 @@
+[
+  {
+    "title": "Dashboard",
+    "icon": "bi-grid-1x2-fill",
+    "childrens": [
+      {
+        "title": "Home",
+        "icon": "bi-house-fill",
+        "path": "/"
+      },
+      {
+        "title": "About",
+        "icon": "bi-info-circle-fill",
+        "path": "/about"
+      },
+      {
+        "title": "Contact",
+        "icon": "bi-phone-fill",
+        "childrens": [
+          {
+            "title": "Facebook",
+            "icon": "bi-facebook"
+          },
+          {
+            "title": "Twitter",
+            "icon": "bi-twitter"
+          },
+          {
+            "title": "Instagram",
+            "icon": "bi-instagram"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Project",
+    "icon": "bi-file-earmark-text-fill",
+    "childrens": [
+      {
+        "title": "Project-1",
+        "path": "/login"
+      },
+      {
+        "title": "Project-2",
+        "path": "/register"
+      },
+      {
+        "title": "Project-3",
+        "path": "/forgot-password"
+      },
+      {
+        "title": "Project-4",
+        "path": "/reset-password"
+      }
+    ]
+  },
+  {
+    "title": "Calender",
+    "icon": "bi-calendar2-event"
+  },
+  {
+    "title": "Messages",
+    "icon": "bi-send"
+  },
+  {
+    "title": "Notifications",
+    "icon": "bi-bell"
+  },
+  {
+    "title": "Contact",
+    "icon": "bi-telephone-fill"
+  },
+  {
+    "title": "Promotions",
+    "icon": "bi-bullseye",
+    "path": "/support"
+  }
+]
