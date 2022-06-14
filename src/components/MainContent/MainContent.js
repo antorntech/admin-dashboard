@@ -7,9 +7,9 @@ import ProgressBar from "react-bootstrap/ProgressBar";
 
 const MainContent = () => {
   return (
-    <div>
+    <div className="mt-4">
       <div className="row row-cols-2">
-        <div className="col-9 my-5">
+        <div className="col-9">
           <header className="text-start">
             <h2>Welcome Back, AM Antor!</h2>
             <p>Have a look at the Quick Progress Bar</p>
@@ -421,7 +421,22 @@ const MainContent = () => {
             </div>
           </div>
         </div>
-        <div className="col-3">Hi</div>
+        <div
+          style={{
+            background: "rgba(25, 59, 103, 0.02)",
+          }}
+          className="col-3 py-3"
+        >
+          <div className="px-2 d-flex justify-content-between align-items-center">
+            <h6 className="fw-bold">Upcoming Meeting</h6>
+            <i class="bi bi-three-dots-vertical"></i>
+          </div>
+          <hr />
+          <div className="px-2 d-flex justify-content-between align-items-center">
+            <h6 className="">Todays Meeting</h6>
+            <i class="bi bi-three-dots-vertical"></i>
+          </div>
+        </div>
       </div>
     </div>
   );
